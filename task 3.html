@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lab Task 03</title>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f4f4f4; }
+    .box { background: #fff; border: 1px solid #ccc; padding: 20px; width: 420px; margin: 20px auto; text-align: center; }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h1>Air University</h1>
+    <p id="msg">Welcome to Air University!</p>
+    <button id="btn">Say Goodbye</button>
+  </div>
+  <script>
+    $(document).ready(function () {
+      $("#btn").click(function () {
+        $("#msg").text("Goodbye! Best wishes for your future.");
+      });
+    });
+  </script>
+</body>
+</html>

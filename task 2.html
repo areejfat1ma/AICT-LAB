@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lab Task 01</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f4f4f4; }
+    .box { background: #fff; border: 1px solid #ccc; padding: 20px; width: 420px; margin: 20px auto; }
+  </style>
+</head>
+<body>
+  <div class="box" id="info"></div>
+  <script>
+    var name = "Areej Fatima";
+    var rollNo = "2601631";
+    var department = "Software Engineering";
+    var semester = "1st";
+    document.getElementById("info").innerHTML =
+      "<h2>Student Information</h2>" +
+      "<p><b>Name:</b> " + name + "</p>" +
+      "<p><b>Roll Number:</b> " + rollNo + "</p>" +
+      "<p><b>Department:</b> " + department + "</p>" +
+      "<p><b>Semester:</b> " + semester + "</p>";
+  </script>
+</body>
+</html>
